@@ -9,14 +9,27 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
-    font-family: 'heeboextrabold';
-    src: url('../fonts/heebo-extrabold-webfont.eot');
-    src: url('../fonts/heebo-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/heebo-extrabold-webfont.woff2') format('woff2'),
-    url('../fonts/heebo-extrabold-webfont.woff') format('woff'),
-    url('../fonts/heebo-extrabold-webfont.ttf') format('truetype'),
-    url('../fonts/heebo-extrabold-webfont.svg#heeboextrabold') format('svg');
+    font-family: 'heebobold';
+    src: url('../fonts/heebo-bold-webfont.eot');
+    src: url('../fonts/heebo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heebo-bold-webfont.woff2') format('woff2'),
+    url('../fonts/heebo-bold-webfont.woff') format('woff'),
+    url('../fonts/heebo-bold-webfont.ttf') format('truetype'),
+    url('../fonts/heebo-bold-webfont.svg#heebobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'heeboregular';
+    src: url('../fonts/heebo-regular-webfont.eot');
+    src: url('../fonts/heebo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/heebo-regular-webfont.woff2') format('woff2'),
+    url('../fonts/heebo-regular-webfont.woff') format('woff'),
+    url('../fonts/heebo-regular-webfont.ttf') format('truetype'),
+    url('../fonts/heebo-regular-webfont.svg#heeboregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -113,6 +126,180 @@ header nav ul li:hover {
     transform: rotate(360deg);
     transition: 0.5s;
 }
+/*Recent posts*/
+
+.post {
+    padding-top: 7px;
+    padding-bottom: 32px;
+    background-color: #EDF7FA;
+}
+
+.first_post {
+    margin: auto;
+    max-width: 856px;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts h4 {
+    align-items: center;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    font-family: 'heeboregular';
+}
+
+.posts a {
+    text-decoration: none;
+    margin-top: 27px;
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00A8CC;
+    font-family: 'heeboregular';
+}
+
+.making_design {
+    display: flex;
+    justify-content: space-between;
+}
+
+.design_system {
+    max-width: 418px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 24px 21px 30px 23px;
+    box-sizing: border-box;
+}
+
+.design_system h4 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+    margin-bottom: 17px;
+    font-family: 'heebobold';
+}
+
+.design_system span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    font-family: 'heeboregular';
+}
+
+.design_figma {
+    margin-left: 25px;
+}
+
+.design_figma:before {
+    border-left: 1px solid #000000;
+    content: "";
+    padding-left: 25px;
+    width: 1px;
+    height: 21px;
+}
+
+.design_system p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    max-width: 368px;
+    margin-top: 11px;
+    font-family: 'heeboregular';
+}
+
+/*Featured works*/
+
+.featured_works {
+    padding-top: 15px;
+    padding-bottom: 32px;
+}
+
+.featured_container {
+    max-width: 858px;
+    margin: auto;
+}
+
+.feature {
+    margin-bottom: 22px;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    font-family: 'heeboregular';
+}
+
+.vibrant_portraits_a {
+    width: 100%;
+    max-width: 246px;
+}
+
+.vibrant_portraits_a img {
+    display: block;
+}
+
+.vibrant_portraits_a article {
+    max-width: 594px;
+}
+
+
+.designing_dashboards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.art {
+    margin-left: 18px
+}
+
+.designing {
+    margin-bottom: 24px;
+    font-size: 30px;
+    line-height: 44px;
+    line-height: 100%;
+    text-align: Left;
+    color: #21243D;
+    font-family: 'heeboregular';
+}
+
+.year {
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 36px;
+    background-color: #142850;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    font-family: 'heebobold';
+}
+
+.dashboard {
+    font-size: 20px;
+    line-height: 100%;
+    color: #8695A4;
+    font-family: 'heeboregular';
+}
+
+.designing_dashboards p {
+    margin-top: 25px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #21243D;
+    font-family: 'heeboregular';
+}
+    /*Form*/
 .main_form {
     padding: 69px 0 37px;
     background: black;
